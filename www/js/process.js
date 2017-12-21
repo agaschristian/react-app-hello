@@ -10,13 +10,13 @@ let process = {
 		let content = <div>
 		    <h1 align='center'> SPECIAL KAKANIN</h1>
 		    <div align='center'>
-						<img src='img/milkputo.jpg' width='100px' height='50px' />
-						<img src='img/yema.jpg' width='100px' height='50px' />
-						<img src='img/putobongbong.jpg' width='100px' height='50px' />
-						<img src='img/suman.jpg' width='100px' height='50px' />
-						<img src='img/tikoy.jpg' width='100px' height='50px' />
-						<img src='img/pininat.jpg' width='100px' height='50px' />
-						<img src='img/baye.jpg' width='100px' height='50px' />
+						<img src='img/milkputo.jpg' width='50px' height='30px' />
+						<img src='img/yema.jpg' width='50px' height='30px' />
+						<img src='img/putobongbong.jpg' width='50px' height='30px' />
+						<img src='img/suman.jpg' width='50px' height='30px' />
+						<img src='img/tikoy.jpg' width='50px' height='30px' />
+						<img src='img/pininat.jpg' width='50px' height='30px' />
+						<img src='img/baye.jpg' width='50px' height='30px' />
 			</div>
 			<audio id="audio_bomb">
 				<source src="audio/bomb.mp3" type="audio/mp3" />
@@ -41,7 +41,7 @@ let process = {
 	page1:function(){
 		let content = <div>
 				<h2 align='center' >MILK PUTO</h2>
-				<p class="buttons-row" width="100px" height="50px">
+				<p class="buttons-row" width="80px" height="50px">
 				<a href='#'  class="button button-fill color-blue"  onClick={process.menu}>BACK</a>
 				</p>
 				<div align='center'>
@@ -75,7 +75,7 @@ let process = {
 				<br/><a href='#' class="button button-fill color-blue" onClick={process.menu}>BACK</a>
 				</p>
 				<div align='center'>
-						<img src='img/putobongbong.jpg' width='100px' height='50px' />
+						<img src='img/putobongbong.jpg' width='80px' height='50px' />
 					<p align='center'>
 						<br/><div>INGREDIENTS</div>
 					<div>*1 pack(400 grams)glutinous rice flour,2 packs (115 grams)purple yam powder</div>
@@ -103,7 +103,7 @@ let process = {
 				<br/><a href='#' class="button button-fill color-blue"onClick={process.menu}>BACK</a>
 				</p>
 				<div align='center'>
-						<img src='img/baye.jpg' width='100px' height='50px' />
+						<img src='img/baye.jpg' width='80px' height='50px' />
 
 					<p align='center'>
 						<br/><div>INGREDIENTS</div>
@@ -133,7 +133,7 @@ let process = {
 				<br/><a href='#' class="button button-fill color-blue" onClick={process.menu}>BACK</a>
 				</p>
 			<div align='center'>
-						<img src='img/yema.jpg' width='100px' height='50px' />
+						<img src='img/yema.jpg' width='80px' height='50px' />
 					<p align='center'>
 						<br/><div>INGREDIENTS</div>
 					<div>*Cake batter,2 2/1 cup cake flour,3 teaspoon baking powder</div>
@@ -169,7 +169,7 @@ let process = {
 				<br/><a href='#' class="button button-fill color-blue" onClick={process.menu}>BACK</a>
 				</p>
 			<div align='center'>
-						<img src='img/suman.jpg'  width='100px' height='50px' />
+						<img src='img/suman.jpg'  width='80px' height='50px' />
 
 					<p align='center'>
 						<br/><div>INGREDIENTS</div>
@@ -230,36 +230,36 @@ page6:function(){
 
 	loading:function(){
 		let content = <div>
-					<div className="progressbar-infinite img-multi"></div>
-					<div className="progressbar-infinite img-multi"></div>
-					<div className="progressbar-infinite img-multi"></div>
-					<div className="progressbar-infinite img-multi"></div>
-					<div className="progressbar-infinite img-multi"></div>
-					<div className="progressbar-infinite img-multi"></div>
-					<div className="progressbar-infinite img-multi"></div>
-					<div className="progressbar-infinite img-multi"></div>
-					<div className="progressbar-infinite img-multi"></div>
-					<div className="progressbar-infinite img-multi"></div>
-					<div className="progressbar-infinite img-multi"></div>
-					<div className="progressbar-infinite img-multi"></div>
-					<div className="progressbar-infinite img-multi"></div>
-					<div className="progressbar-infinite img-multi"></div>
-					<div className="progressbar-infinite img-multi"></div>
-					<div className="progressbar-infinite img-multi"></div>
-					<div className="progressbar-infinite img-multi"></div>
-					<div className="progressbar-infinite img-multi"></div>
-					<div className="progressbar-infinite img-multi"></div>
-					<div className="progressbar-infinite img-multi"></div>
-					<div className="progressbar-infinite img-multi"></div>
-					<div className="progressbar-infinite img-multi"></div>
-					<div className="progressbar-infinite img-multi"></div>
-					<div className="progressbar-infinite img-multi"></div>
-					<div className="progressbar-infinite img-multi"></div>
-					<div className="progressbar-infinite img-multi"></div>
-					<div className="progressbar-infinite img-multi"></div>
-					<div className="progressbar-infinite img-multi"></div>
-					<div className="progressbar-infinite img-multi"></div>
-					<div className="progressbar-infinite img-multi"></div>
+					<div className="progressbar-infinite color-multi"></div>
+					<div className="progressbar-infinite color-multi"></div>
+					<div className="progressbar-infinite color-multi"></div>
+					<div className="progressbar-infinite color-multi"></div>
+					<div className="progressbar-infinite color-multi"></div>
+					<div className="progressbar-infinite color-multi"></div>
+					<div className="progressbar-infinite color-multi"></div>
+					<div className="progressbar-infinite color-multi"></div>
+					<div className="progressbar-infinite color-multi"></div>
+					<div className="progressbar-infinite color-multi"></div>
+					<div className="progressbar-infinite color-multi"></div>
+					<div className="progressbar-infinite color-multi"></div>
+					<div className="progressbar-infinite color-multi"></div>
+					<div className="progressbar-infinite color-multi"></div>
+					<div className="progressbar-infinite color-multi"></div>
+					<div className="progressbar-infinite color-multi"></div>
+					<div className="progressbar-infinite color-multi"></div>
+					<div className="progressbar-infinite color-multi"></div>
+					<div className="progressbar-infinite color-multi"></div>
+					<div className="progressbar-infinite color-multi"></div>
+					<div className="progressbar-infinite color-multi"></div>
+					<div className="progressbar-infinite color-multi"></div>
+					<div className="progressbar-infinite color-multi"></div>
+					<div className="progressbar-infinite color-multi"></div>
+					<div className="progressbar-infinite color-multi"></div>
+					<div className="progressbar-infinite color-multi"></div>
+					<div className="progressbar-infinite color-multi"></div>
+					<div className="progressbar-infinite color-multi"></div>
+					<div className="progressbar-infinite color-multi"></div>
+					<div className="progressbar-infinite color-multi"></div>
 					
 					<audio id="audio">
 						<source src="audio/bomb.mp3" type="audio/mp3" />
